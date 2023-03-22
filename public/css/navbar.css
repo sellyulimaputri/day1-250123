@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            font-family: 'Quicksand', sans-serif;
+        }.container{
+            display: flex;
+            min-height: 100vh;
+            margin: 0;
+            padding: 0;
+            border: 0;
+        }.menu{
+            background-color: #13005A;
+            width: 260px;
+            padding: 24px;
+            display: flex;
+            box-sizing: border-box;
+            flex-direction: column;
+        }.menu .menu-header{
+            font-size: 16px;
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 10px;
+            line-height: 16px;
+        }.menu .menu-header .tittle{
+            align-items: center;
+            display: flex;
+            flex-direction: row;
+            height: 40px;
+        }.menu .menu-header .tittle a{
+            text-decoration: none;
+            color: #ffffff;
+        } .menu .ilustrasi{
+            text-align: center;
+            margin: 10px;
+        }.menu .ilustrasi img{
+            width: 110px;
+        }.icon{
+            width: 20px;
+            margin-right: 10px;
+        }.menu .menu-list{
+            margin: 5px 0px 5px 0px;
+            padding: 5px;
+            border-radius: 5px;
+        }.menu .menu-list a{
+            color: #ffffff;
+            text-decoration: none;
+        }.judul{
+            font-size: 20px;
+        }.menu{
+            padding: 15px;
+        }.menu .menu-list:hover{
+            background-color: #c10bc1;
+        }.content{
+            padding: 20px;
+            margin: 0;
+        }
+
+        .table{
+            width: 140vh;
+        }.titleContainer{
+            text-align: center;
+        }.tambah-produk{
+            text-decoration: none;
+            color:black;
+        }.tambah-produk:hover{
+            color: #ffffff;
+            background-color: #13005A;
+            padding: 5px;
+            border-radius: 5px;
+        }.input{
+            margin: 10px;
+        }
